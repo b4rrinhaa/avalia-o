@@ -1,0 +1,49 @@
+package agendamento;
+
+public class agendamento {
+	public static void main(String[] args) {
+		
+		private String tipo;
+		private String data;
+		private String horario;
+		
+		public agendamento() {}
+		
+		public agendamento(String tipo, String data, String horario) {
+					this.tipo = tipo;
+					this.data = data;
+					this.horario = horario;
+		}
+		
+		public String getTipo() {
+			return tipo;
+		}
+		
+		public void setTipo(String tipo) {
+			this.tipo = tipo;
+		}
+		          
+		public String getData() {
+			return data;
+			
+		}
+		public void setData(String data) { 
+			this.data = data;
+			
+		}
+		
+		public String getHorario() {
+			return horario;
+		}
+		
+		public void setHorario(String horario) {
+			this.horario = horario;
+			
+		}
+	}
+		
+		
+   }
+}
+
+
